@@ -13,7 +13,13 @@ fun main(){
     val rad = 5
     println("${pi * rad.toDouble() * rad.toDouble()}")*/
     //Задание 4
-    val name = readln()
+    /*val name = readln()
     val age = readln().toInt()
-    println("${name} вам ${2025 - age}")
+    println("${name} вам ${2025 - age}")*/
+    //Задание 5
+    val n1 = readln().toInt()
+    val n2 = readln().toInt()
+    println("${n1} + ${n2} = ${n1 + n2}")
+    println("${n1} - ${n2} = ${n1 - n2}")
+    println("${n1} * ${n2} = ${n1 * n2}")
 }
