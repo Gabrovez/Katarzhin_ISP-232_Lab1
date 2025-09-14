@@ -35,13 +35,15 @@ fun main(){
     val n3 = readln()
     println("$n1$m$n2$m$n3")*/
     //Задание 8
-    var n = readln().toInt()
+    /*var n = readln().toInt()
     println("$n")
     n++
     println("$n")
     n++
-    println("$n")
-
-
+    println("$n")*/
+    //Задание 9
+    val n = readln()
+    val rn = n.reversed().toInt()
+    println("$rn")
 
 }
