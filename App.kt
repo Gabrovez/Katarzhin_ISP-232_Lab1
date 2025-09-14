@@ -29,10 +29,19 @@ fun main(){
     val n3= n %10
     println("$n → $n1 + $n2 + $n3 = ${n1 + n2 + n3}")*/
     //Задание 7
-    val m = readln()
+    /*val m = readln()
     val n1 = readln()
     val n2 = readln()
     val n3 = readln()
-    println("$n1$m$n2$m$n3")
+    println("$n1$m$n2$m$n3")*/
+    //Задание 8
+    var n = readln().toInt()
+    println("$n")
+    n++
+    println("$n")
+    n++
+    println("$n")
+
+
 
 }
