@@ -55,13 +55,38 @@ fun main(){
     //val city = "Москва"
     //var temperature = 20
     //temperature += 5
-    val name = "Grisha"
+    /*val name = "Grisha"
     val dob = 11112006
     var age = 18
     age += 10
     println(name)
     println(dob)
-    println(age)
+    println(age)*/
+    //Шаг 5. Базовые типы данных
+    val count : Int= 2
+    println(count)
+    val odin : Int = 1
+    val odinad : Long = 11
+    val duble : Double = 0.2
+    val plivet : Float = 0.3F
+    val da : Boolean = true
+    val gg : Char = 'g'
+    val ublublub : String = "ublublub"
+    val any_1 : Any = 1
+    val any_2 : Any = true
+    val any_3 : Any = "utrechko"
+    println("$odin")
+    println("$odinad")
+    println("$duble")
+    println("$plivet")
+    println("$da")
+    println("$gg")
+    println("$ublublub")
+    println("$any_1")
+    println("$any_2")
+    println("$any_3")
+
+
 
 
 
