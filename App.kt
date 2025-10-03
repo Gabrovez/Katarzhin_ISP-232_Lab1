@@ -148,10 +148,22 @@ fun main(){ // начало функции main
     println("Частное: ${a / b}")
     println("Остаток: ${a % b}")*/
     //Шаг 13. Инкремент и декремент
-    var count: Int = 10
+    /*var count: Int = 10
     count++
     count--
-    println(count)
+    println(count)*/
+    //Шаг 14. Целочисленное деление
+    val a = 5
+    val b = 2
+    println(a / b)
+    println(a % b)
+    val totalSeconds = readln().toInt()
+    val hours = totalSeconds / 3600
+    val minutes = totalSeconds % 3600 / 60
+    val seconds = totalSeconds % 3600 % 60
+    println("$hours ч $minutes мин  $seconds сек")
+
+
 
 
 }//конец фукнции main
