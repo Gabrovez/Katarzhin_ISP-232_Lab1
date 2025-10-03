@@ -118,13 +118,21 @@ fun main(){ // начало функции main
     var pet = "bird"
     val sum = 1 + 2*/
     //Шаг 9. Преобразование данных
-    val a: Int = 7
+    /*val a: Int = 7
     val b: Double = 3.5
     val bint = b.toInt()
     val sum = a + bint
     val div = a / bint
     println("$sum")
-    println("$div")
-
+    println("$div")*/
+    //Шаг 10. Поиск ошибок: работа с IDE
+        var x: Int = 65.2.toInt()
+        var isPunk: Boolean = true
+        var message = "Hello"
+    //val n = 10.also { it -> it.also { it1 -> it1.also { isPunk = it } } }
+    // у меня не получилось починить эту строку через IDE/ было ISPUNK =10. поэтому я просто присвоил false
+    isPunk = false
+    var y: String = 15.toString()
+        y = "hello$y"
 
 }//конец фукнции main
