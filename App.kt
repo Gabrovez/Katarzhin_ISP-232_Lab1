@@ -63,7 +63,7 @@ fun main(){
     println(dob)
     println(age)*/
     //Шаг 5. Базовые типы данных
-    val count : Int= 2
+   /* val count : Int= 2
     println(count)
     val odin : Int = 1
     val odinad : Long = 11
@@ -84,7 +84,12 @@ fun main(){
     println("$ublublub")
     println("$any_1")
     println("$any_2")
-    println("$any_3")
+    println("$any_3")*/
+    //Шаг 6. Шаблоны строк
+    val game = "Dota 2"
+    val year = 2005
+    val message = "$game - пользовательская карта для Warcraft III, разрабатываемая с $year года"
+    println(message)
 
 
 
