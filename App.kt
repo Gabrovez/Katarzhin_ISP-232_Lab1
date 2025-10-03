@@ -150,7 +150,7 @@ fun main(){ // начало функции main
     //Шаг 13. Инкремент и декремент
     var count: Int = 10
     count++
-
+    count--
     println(count)
 
 
