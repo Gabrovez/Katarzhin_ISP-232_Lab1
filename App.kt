@@ -126,13 +126,27 @@ fun main(){ // начало функции main
     println("$sum")
     println("$div")*/
     //Шаг 10. Поиск ошибок: работа с IDE
-        var x: Int = 65.2.toInt()
+        /*var x: Int = 65.2.toInt()
         var isPunk: Boolean = true
         var message = "Hello"
     //val n = 10.also { it -> it.also { it1 -> it1.also { isPunk = it } } }
     // у меня не получилось починить эту строку через IDE/ было ISPUNK =10. поэтому я просто присвоил false
     isPunk = false
     var y: String = 15.toString()
-        y = "hello$y"
+        y = "hello$y"*/
+    //Шаг 12. Базовые математические операции с целыми числами
+    val unreadcount = 5
+    val readcount = 100
+    println("У вас ${unreadcount + readcount} сообщений.")
+    print("введите первое число ")
+    val a = readln().toInt()
+    print("введите второе число ")
+    val b = readln().toInt()
+    println("Сумма: ${a + b}")
+    println("Разность: ${a - b}")
+    println("Произведение: ${a * b}")
+    println("Частное: ${a / b}")
+    println("Остаток: ${a % b}")
+
 
 }//конец фукнции main
