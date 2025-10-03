@@ -149,7 +149,8 @@ fun main(){ // начало функции main
     println("Остаток: ${a % b}")*/
     //Шаг 13. Инкремент и декремент
     var count: Int = 10
-    count = count + 1
+    count++
+
     println(count)
 
 
