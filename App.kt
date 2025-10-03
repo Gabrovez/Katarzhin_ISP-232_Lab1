@@ -135,7 +135,7 @@ fun main(){ // начало функции main
     var y: String = 15.toString()
         y = "hello$y"*/
     //Шаг 12. Базовые математические операции с целыми числами
-    val unreadcount = 5
+    /*val unreadcount = 5
     val readcount = 100
     println("У вас ${unreadcount + readcount} сообщений.")
     print("введите первое число ")
@@ -146,7 +146,10 @@ fun main(){ // начало функции main
     println("Разность: ${a - b}")
     println("Произведение: ${a * b}")
     println("Частное: ${a / b}")
-    println("Остаток: ${a % b}")
+    println("Остаток: ${a % b}")*/
+    //Шаг 13. Инкремент и декремент
+    var count: Int = 10
+    println(count)
 
 
 }//конец фукнции main
