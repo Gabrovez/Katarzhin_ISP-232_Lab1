@@ -1,3 +1,4 @@
+//const val  PI = 3.1415
 fun main(){
     //Задание 1
     /*val a = "Library_of_Ruina"
@@ -49,6 +50,19 @@ fun main(){
     /*val n = readln().toInt()
     println("${(n/100)%10}")*/
     //hello world
-    println("Hello world!")
+    //println("Hello world!")
+    //Шаг 4. Переменные: val и var
+    //val city = "Москва"
+    //var temperature = 20
+    //temperature += 5
+    val name = "Grisha"
+    val dob = 11112006
+    var age = 18
+    age += 10
+    println(name)
+    println(dob)
+    println(age)
+
+
 
 }
