@@ -114,9 +114,17 @@ fun main(){ // начало функции main
         x = x + 1 // Увеличение значения x на 1 для перехода к следующему элементу
     }// конец цикла while*/
     //Шаг 8. Coding conventions
-    val discount: Double = .20
+    /*val discount: Double = .20
     var pet = "bird"
-    val sum = 1 + 2
+    val sum = 1 + 2*/
+    //Шаг 9. Преобразование данных
+    val a: Int = 7
+    val b: Double = 3.5
+    val bint = b.toInt()
+    val sum = a + bint
+    val div = a / bint
+    println("$sum")
+    println("$div")
 
 
 }//конец фукнции main
