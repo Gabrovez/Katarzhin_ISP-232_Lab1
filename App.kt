@@ -153,7 +153,7 @@ fun main(){ // начало функции main
     count--
     println(count)*/
     //Шаг 14. Целочисленное деление
-    val a = 5
+    /*val a = 5
     val b = 2
     println(a / b)
     println(a % b)
@@ -161,7 +161,13 @@ fun main(){ // начало функции main
     val hours = totalSeconds / 3600
     val minutes = totalSeconds % 3600 / 60
     val seconds = totalSeconds % 3600 % 60
-    println("$hours ч $minutes мин  $seconds сек")
+    println("$hours ч $minutes мин  $seconds сек")*/
+    //Шаг 15. Дробные числа
+    val fahrenheit = readln().toDouble()
+    val celsius = (fahrenheit - 32) * 5 / 9
+    println("$fahrenheit°F = $celsius°C")
+
+
 
 
 
